@@ -1,0 +1,9 @@
+﻿<Application  
+    x:Class="MVVNpattern.App"    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MVVNpattern"
+    xmlns:vm="using:MVVNpattern.ViewModels"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <vm:ViewModelLocator xmlns:vm="using:MVVNpattern.ViewModels" x:Key="Locator" />
+    </Application.Resources>
+</Application>
